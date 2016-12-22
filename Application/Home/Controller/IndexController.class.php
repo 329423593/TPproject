@@ -13,8 +13,11 @@ class IndexController extends Controller {
     	$Staff	= M('Staff');
     	$count	= $Staff->count();
     	$Page 	= new \Think\Page($count,5);// 实例化分页类 传入总记录数和每页显示的记录数(5)
+
     	$show	= $Page->show();// 分页显示输出
     	$result = $Staff->limit($Page->firstRow.','.$Page->listRows)->select();
+
+    	
     	$this->assign('result', $result);
     	$this->assign('page',$show);// 赋值分页输出
     	$this->display('test/test');

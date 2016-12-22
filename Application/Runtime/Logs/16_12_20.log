@@ -1,0 +1,162 @@
+[ 2016-12-20T14:47:13+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.035480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.236674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.022324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022465s ]
+
+[ 2016-12-20T14:48:34+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009845s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-12-20T14:51:31+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-12-20T14:51:32+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-12-20T16:02:14+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.015737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008493s ]
+
+[ 2016-12-20T16:02:25+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-12-20T16:03:06+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-12-20T17:19:46+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-12-20T17:19:48+08:00 ] ::1 /TPproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-12-20T17:21:01+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-12-20T17:21:48+08:00 ] ::1 /TPproject/home/index/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+

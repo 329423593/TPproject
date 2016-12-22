@@ -1,0 +1,918 @@
+[ 2016-12-21T10:08:01+08:00 ] ::1 /TPproject/home/index/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-12-21T10:08:07+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [8] Undefined variable: Model /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php 第 12 行.
+
+[ 2016-12-21T10:08:27+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [8] Undefined variable: Model /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php 第 12 行.
+
+[ 2016-12-21T10:08:37+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.032143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032255s ]
+
+[ 2016-12-21T10:08:42+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Undefined variable: Model /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php 第 12 行.
+
+[ 2016-12-21T10:15:10+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.093200s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-12-21T10:15:11+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.010275s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-12-21T10:15:30+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002577s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002049s ]
+
+[ 2016-12-21T10:18:43+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002541s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-12-21T10:18:44+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002546s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-12-21T10:25:05+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002568s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-12-21T10:25:23+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002125s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-12-21T10:25:39+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.010265s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-12-21T10:25:50+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002158s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.028293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028445s ]
+
+[ 2016-12-21T10:26:02+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002956s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2016-12-21T10:26:09+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003958s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002251s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-12-21T10:29:28+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SELECT * FROM `test_`  [ RunTime:0.111732s ]
+ERR: 1146:Table 'test.test_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `test_` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-12-21T10:29:32+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.022222s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-12-21T10:29:52+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `test_session` [ RunTime:0.617619s ]
+SQL: SELECT * FROM `test_session`  [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-12-21T10:30:35+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `test_session` [ RunTime:0.004156s ]
+SQL: SELECT * FROM `test_session`  [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-12-21T10:30:58+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004570s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2016-12-21T10:53:46+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+
+[ 2016-12-21T10:53:53+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: select * from test_staff [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.019179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019331s ]
+
+[ 2016-12-21T10:54:08+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003336s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-12-21T11:04:28+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001815s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-12-21T11:04:29+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.042795s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-12-21T11:05:13+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-12-21T11:05:24+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004107s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-12-21T11:05:33+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.007580s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-12-21T11:08:01+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.005018s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-12-21T11:15:07+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014392s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.026275s ]
+ERR: Think\Model:getDbFeilds方法不存在！
+
+[ 2016-12-21T11:15:18+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-12-21T11:15:45+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003510s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-12-21T11:15:55+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002493s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-12-21T11:16:01+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004154s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000767s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-12-21T11:16:05+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002625s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000710s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-21T11:16:45+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002334s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-12-21T11:16:57+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003623s ]
+SQL: SELECT * FROM `test_staff`  [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-12-21T11:20:47+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024007s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002156s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=1 )  [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-12-21T11:22:48+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002507s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '林伟超' )  [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-12-21T11:23:14+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002482s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '黄彦达' )  [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-12-21T11:23:39+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.020043s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '黄彦达' ) AND ( `id` = 6 )  [ RunTime:0.016467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-12-21T11:24:29+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.067553s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄' ) AND ( `id` = 6 )  [ RunTime:0.100266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2016-12-21T11:25:08+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005693s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004280s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-12-21T11:25:15+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004363s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' )  [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-12-21T11:25:18+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002117s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-12-21T11:33:35+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.018162s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM shop.ecs_users [ RunTime:0.066834s ]
+SQL: SELECT * FROM shop.ecs_users WHERE ( id=1 )  [ RunTime:0.034972s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM shop.ecs_users WHERE ( id=1 ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.013049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013241s ]
+
+[ 2016-12-21T11:34:33+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003538s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM shop.ecs_users [ RunTime:0.005677s ]
+SQL: SELECT * FROM shop.ecs_users WHERE ( user_id=1 )  [ RunTime:0.001232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-12-21T11:34:48+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002697s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM shop.ecs_users [ RunTime:0.002982s ]
+SQL: SELECT * FROM shop.ecs_users WHERE ( user_id=3505 )  [ RunTime:0.038928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-12-21T11:36:06+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001457s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `__user__` [ RunTime:0.033914s ]
+ERR: 1146:Table 'test.__user__' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `__user__`
+SQL: SELECT * FROM `__user__`  [ RunTime:0.000471s ]
+ERR: 1146:Table 'test.__user__' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `__user__` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.014639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014809s ]
+
+[ 2016-12-21T11:36:23+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001895s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.020396s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002750s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-12-21T11:55:23+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.014951s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002052s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `test_staff` LIMIT 1   [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-12-21T11:56:02+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004131s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002694s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000521s ]
+SQL: SELECT * FROM `test_staff` LIMIT 2   [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-12-21T11:56:48+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003450s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.005524s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000585s ]
+SQL: SELECT * FROM `test_staff` LIMIT 2   [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-12-21T11:57:04+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.011074s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.010529s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000403s ]
+SQL: SELECT * FROM `test_staff` LIMIT 2   [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-12-21T11:57:32+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001985s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002249s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000500s ]
+SQL: SELECT * FROM `test_staff` LIMIT 2   [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-12-21T13:45:24+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.028773s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.043754s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `test_staff` LIMIT 1   [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-12-21T13:45:41+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002656s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002342s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000761s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2016-12-21T13:46:01+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004255s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.004545s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000596s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2016-12-21T13:46:28+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002440s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002217s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2016-12-21T13:46:52+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003392s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.002811s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000458s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: INSERT INTO `test_staff` (`id`,`name`,`age`,`salary`,`changeDate`) VALUES (2,'黄彦达',26,'7000','2016-11-30 14:49:32') [ RunTime:0.050207s ]
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `test_staff` (`id`,`name`,`age`,`salary`,`changeDate`) VALUES (2,'黄彦达',26,'7000','2016-11-30 14:49:32')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.014247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014374s ]
+
+[ 2016-12-21T13:47:31+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.034012s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `test_user` [ RunTime:0.001971s ]
+SQL: SELECT * FROM `test_user`  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `test_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: INSERT INTO `test_staff` (`id`,`name`,`age`,`salary`,`changeDate`) VALUES (2,'黄彦达',26,'7000','2016-11-30 14:49:32') [ RunTime:0.000295s ]
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `test_staff` (`id`,`name`,`age`,`salary`,`changeDate`) VALUES (2,'黄彦达',26,'7000','2016-11-30 14:49:32')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-12-21T13:48:38+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003012s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-12-21T13:50:02+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003034s ]
+SQL: INSERT INTO `test_staff` (`name`,`age`) VALUES ('李炜',27) [ RunTime:0.039144s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-12-21T13:50:44+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002267s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-12-21T13:51:45+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.022698s ]
+SQL: SELECT `name`,`age`,`salary` FROM `test_staff`  [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-12-21T13:56:26+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.013031s ]
+SQL: SELECT `id`,`name`,`age`,`salary`,`changeDate` FROM `test_staff`  [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-12-21T14:01:02+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002444s ]
+SQL: SELECT `id`,`age`,`salary`,`changeDate` FROM `test_staff`  [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-12-21T14:24:44+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027626s ]
+
+[ 2016-12-21T14:24:49+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.021902s ]
+SQL: SELECT `id`,`name`,`age`,`salary`,`changeDate` FROM `test_staff`  [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.025821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025983s ]
+
+[ 2016-12-21T14:25:07+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.009181s ]
+SQL: SELECT `id`,`name`,`age`,`salary`,`changeDate` FROM `test_staff` GROUP BY name  [ RunTime:0.037227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.013568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013681s ]
+
+[ 2016-12-21T14:38:32+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044242s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003019s ]
+ERR: Think\Model:fetchSql方法不存在！
+
+[ 2016-12-21T15:36:41+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028101s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.056992s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2016-12-21T15:36:46+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-12-21T15:37:09+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002306s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '林伟超' ) LIMIT 1   [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-12-21T15:37:16+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002693s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '黄彦达' ) LIMIT 1   [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-12-21T15:38:26+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003427s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '黄彦达,林伟超	' ) LIMIT 1   [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-12-21T15:38:36+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003069s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` = '1,2,3' ) LIMIT 1   [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-12-21T15:38:44+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-12-21T15:38:53+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.005356s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `id` IN ('1','2','3') )  [ RunTime:0.039837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-12-21T15:59:05+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013488s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003082s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2016-12-21T16:00:09+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004709s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-12-21T16:00:11+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003242s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-12-21T16:00:15+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.003501s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-12-21T16:00:18+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.004161s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2016-12-21T17:01:22+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021319s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-21T17:31:13+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.002700s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000563s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php:18) /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Verify.class.php 第 168 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php:18) /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Verify.class.php 第 169 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php:18) /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Verify.class.php 第 170 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/TPproject/Application/Home/Controller/IndexController.class.php:18) /Applications/MAMP/htdocs/TPproject/ThinkPHP/Library/Think/Verify.class.php 第 171 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-12-21T17:35:30+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.021930s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-12-21T17:36:08+08:00 ] ::1 /TPproject/home/index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `test_staff` [ RunTime:0.001562s ]
+SQL: SELECT * FROM `test_staff` WHERE ( `name` LIKE '黄%' ) AND ( `id` = 6 )  [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+

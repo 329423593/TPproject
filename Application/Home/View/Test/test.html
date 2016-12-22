@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test模板</title>
+	<link rel="stylesheet" type="text/css" href="/TPproject/Public/css/table.css">
+</head>
+<body>
+	<table>
+		<th width="25%">姓名</th>
+		<th width="25%">年龄</th>
+		<th width="25%">薪酬</th>
+		<th width="25%">日期</th>
+		<tbody>
+			<volist name="result" id="re">
+			    <tr>
+					<td>{$re['name']|default="未设置"}</td>
+					<td>{$re['age']|default="未设置"}</td>
+					<td>{$re['salary']|default="未设置"}</td>
+					<td>{$re['changeDate']|default="未设置"}</td>
+				</tr>
+			</volist>
+		</tbody>
+	</table>
+
+	<div class='page'>
+		{$page}
+	</div>
+	
+</body>
+</html>

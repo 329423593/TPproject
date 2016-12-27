@@ -9,15 +9,19 @@ class IndexController extends Controller {
 
     public function test()
     {
-    	
-    	$Staff	= M('Staff');
-    	$count	= $Staff->count();
+    	if(!empty($_POST["is_ajax"]))
+    	{
+    		$or_name = (isset($_POST["or_name"])?$_POST["or_name"]:'');
+	    	return $or_name;
+	    	
+    	}
+    	$Users	= M('Users');
+    	$count	= $Users->count();
     	$Page 	= new \Think\Page($count,5);// 实例化分页类 传入总记录数和每页显示的记录数(5)
 
     	$show	= $Page->show();// 分页显示输出
-    	$result = $Staff->limit($Page->firstRow.','.$Page->listRows)->select();
+    	$result = $Users->order($or_name)->limit($Page->firstRow.','.$Page->listRows)->select();
 
-    	
     	$this->assign('result', $result);
     	$this->assign('page',$show);// 赋值分页输出
     	$this->display('test/test');
@@ -34,6 +38,28 @@ class IndexController extends Controller {
 		$show	= $Page->show();// 分页显示输出
     	$this->assign('page',$show);// 赋值分页输出
     	$this->display('test/test1');
+    }
+
+    public function upload(){
+	    $upload = new \Think\Upload();// 实例化上传类
+	    $upload->maxSize   =     3145728 ;// 设置附件上传大小
+	    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+	    $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
+	    $upload->savePath  =     ''; // 设置附件上传（子）目录
+	    // 上传文件 
+	    $info   =   $upload->upload();
+	    if(!$info) {// 上传错误提示错误信息
+	        $this->error($upload->getError());
+	    }else{// 上传成功
+	        $this->success('上传成功！');
+	    }
+	}
+
+    public function Ajax()
+    {
+    	$data['status']  = 1;
+		$data['content'] = 'content';
+		$this->ajaxReturn($data);
     }
 }
 

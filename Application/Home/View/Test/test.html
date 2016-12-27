@@ -2,19 +2,30 @@
 <html>
 <head>
 	<title>test模板</title>
+	<script type="text/javascript" src="/TPproject/Public/js/ajax.js"></script>
 	<link rel="stylesheet" type="text/css" href="/TPproject/Public/css/table.css">
 </head>
 <body>
-	<table>
-		<th width="25%">姓名</th>
-		<th width="25%">年龄</th>
-		<th width="25%">薪酬</th>
-		<th width="25%">日期</th>
+	<!-- <form action="__URL__/upload" enctype="multipart/form-data" method="post" >
+		<input type="text" name="name" />
+		<input type="file" name="photo[]" />
+		<input type="file" name="photo[]" />
+		<input type="file" name="photo[]" />
+		<input type="submit" value="提交" >
+	</form> -->
+
+	<table id="table">
+		<th width="20%">姓名</th>
+		<th width="20%">年龄</th>
+		<th width="20%">手机号码</th>
+		<th width="20%">薪酬</th>
+		<th width="20%">日期</th>
 		<tbody>
 			<volist name="result" id="re">
 			    <tr>
 					<td>{$re['name']|default="未设置"}</td>
 					<td>{$re['age']|default="未设置"}</td>
+					<td>{$re['telephone']|default="未设置"}</td>
 					<td>{$re['salary']|default="未设置"}</td>
 					<td>{$re['changeDate']|default="未设置"}</td>
 				</tr>
@@ -26,5 +37,28 @@
 		{$page}
 	</div>
 	
+
 </body>
 </html>
+
+<script type="text/javascript">
+	var th = document.getElementsByTagName('th');
+	for(i=0; i<th.length; i++){
+		th[i].onclick=function(){sort_colunm(this.innerHTML)};
+	}
+	function sort_colunm(colunm){
+		ajax({
+	        url: "/TPproject/Application/Home/Controller/IndexController.class.php",              //请求地址
+	        type: "POST",                       //请求方式
+	        data: { is_ajax:true, colunm: colunm },        //请求参数
+	        dataType: "json",
+	        success: function (response, html) {
+	            // 此处放成功后执行的代码
+	            console.log(response);
+	        },
+	        fail: function (status) {
+	            // 此处放失败后执行的代码
+	        }
+	    });
+	}
+</script>

@@ -4,7 +4,24 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-		$this->show('你好！');
+		echo "tp_version：".THINK_VERSION;
+		echo "<br/>";
+		echo  "———APP_DEBUG".var_dump(APP_DEBUG);
+		echo "<br/>";
+
+		echo magic_quotes_gpc;
+		echo "<br/>";
+		echo __FILE__;
+		echo "<br/>";
+		var_dump($_SERVER);
+		echo "<br/>";
+		echo $_SERVER['PHP_SELF'];
+		echo "<br/>";
+		$str = "<a>I'm This is some <b>bold</b> text1.</a>";
+		echo htmlspecialchars($str);
+		echo "<br/>";
+		echo $str;
+//		$this->show('This is some <b>bold</b> text.');
     }
 
     public function test()

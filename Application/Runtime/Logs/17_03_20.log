@@ -1,0 +1,9 @@
+[ 2017-03-20T16:44:00+08:00 ] 113.111.64.12 /TPproject320/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+

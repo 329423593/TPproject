@@ -1,0 +1,148 @@
+[ 2017-03-03T09:23:34+08:00 ] 113.111.65.237 /TPproject320/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-03-03T09:24:46+08:00 ] 113.111.65.237 /TPproject320/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-03-03T09:24:54+08:00 ] 113.111.65.237 /TPproject320/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-03-03T09:32:33+08:00 ] 113.111.65.237 /TPproject320/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-03-03T09:45:17+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-03-03T09:49:36+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-03-03T09:50:27+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant PHP_SELF - assumed 'PHP_SELF' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-03-03T09:51:33+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: ADMIN_PATH /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-03-03T09:51:54+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-03-03T09:54:18+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-03-03T10:00:00+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-03-03T10:09:04+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-03-03T10:10:18+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-03-03T10:10:24+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-03-03T10:10:48+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-03-03T10:11:26+08:00 ] 113.111.65.237 /TPproject320/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant magic_quotes_gpc - assumed 'magic_quotes_gpc' /var/www/TPproject320/Application/Home/Controller/IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+

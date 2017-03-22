@@ -26,8 +26,9 @@ class IndexController extends Controller {
 		echo htmlspecialchars($str);
 		echo "<br/>";
         echo $str;
+        echo "<br/>";
 
-        $arr1 = array('a' => 1, 'b' => 2, 'c'=>3, 'd' =>4);
+        $arr1 = array('a' => array("我" => 'I', "爱" => 'love', '运动' => 'sports'), 'b' => 2, 'c'=>3, 'd' =>4);
         foreach($arr1 as $key => $val){
         	echo $key;
         	echo "<br/>";

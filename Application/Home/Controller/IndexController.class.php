@@ -6,21 +6,34 @@ class IndexController extends Controller {
     public function index(){
 		echo "tp_version：".THINK_VERSION;
 		echo "<br/>";
-		echo  "———APP_DEBUG".var_dump(APP_DEBUG);
+        echo "<br/>";
+
+        echo  "———APP_DEBUG".var_dump(APP_DEBUG);
 		echo "<br/>";
+        echo "<br/>";
 
 		echo magic_quotes_gpc;
 		echo "<br/>";
-		echo __FILE__;
+        echo "<br/>";
+
+        echo __FILE__;
 		echo "<br/>";
-		var_dump($_SERVER);
+        echo "<br/>";
+
+        var_dump($_SERVER);
 		echo "<br/>";
-		echo $_SERVER['PHP_SELF'];
+        echo "<br/>";
+
+        echo $_SERVER['PHP_SELF'];
 		echo "<br/>";
-		$str = "<a>I'm This is some <b>bold</b> text1.</a>";
+        echo "<br/>";
+
+        $str = "<a>I'm This is some <b>bold</b> text1.</a>";
 		echo htmlspecialchars($str);
 		echo "<br/>";
-		echo $str;
+        echo "<br/>";
+
+        echo $str;
 //		$this->show('This is some <b>bold</b> text.');
     }
 

@@ -30,8 +30,12 @@ class IndexController extends Controller {
 
         $arr1 = array('a' => array("我" => 'I', "爱" => 'love', '运动' => 'sports'), 'b' => 2, 'c'=>3, 'd' =>4);
         foreach($arr1 as $key => $val){
-        	echo $key;
-        	echo "<br/>";
+        	if(is_array($key)){
+        		echo $val['我'].$val['爱'].$val['运动'].'。';
+			}else{
+                echo $key;
+			}
+			echo "<br/>";
 		}
 //		$this->show('This is some <b>bold</b> text.');
     }
